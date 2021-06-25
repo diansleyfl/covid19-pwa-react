@@ -1,10 +1,10 @@
 import { createGlobalStyle } from 'styled-components'
-import CovidImg from '../assets/images/covid.jpg'
+import CovidImg from '../../assets/images/covid.jpg'
 
 const globalStyle = createGlobalStyle`
     * {
         outline: none;
-        border-sizing: border-box;
+        box-sizing: border-box;
     }
 
     body {
@@ -24,7 +24,19 @@ const globalStyle = createGlobalStyle`
         height: 100%;
         width: 100%;
         background-size: cover;
-        backgound:position: center center;
+        background-position: center center;
+    }
+
+    .mb-2 {
+        margin-bottom: 16px;
+    }
+
+    .pt-2 {
+        padding-top: 16px;
+    }
+
+    .cursor {
+        cursor: pointer;
     }
 `
 
