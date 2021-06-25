@@ -1,2 +1,2 @@
-const { useBabelRc, override } = require('customize-cra')
+const { useBabelRc, overrider } = require('customize-cra')
 module.exports = overrider(useBabelRc())
